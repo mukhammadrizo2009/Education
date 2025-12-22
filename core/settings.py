@@ -35,6 +35,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "unfold",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
     'payment.apps.PaymentConfig',
     'student.apps.StudentConfig',
     'teacher.apps.TeacherConfig',
+    'groups.apps.GroupsConfig',
     
     'rest_framework',
     #'django_filters',
